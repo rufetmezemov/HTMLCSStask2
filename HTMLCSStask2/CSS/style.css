@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-width: 1000px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+}
+.section1{
+    margin-top: 50px;
+    border-left: 2px dashed #acacad;
+    height: 820px;
+    width: 410px;
+    margin-left: 40px; 
+}
+.section2{
+    margin-top: 50px;
+    border-left: 2px dashed #acacad;
+    position: top right;
+    height: 820px;
+    width: 410px;
+}
+.contact{
+    margin-left: 50px;
+}
+
+.contactinfo{
+    display: inline;
+
+    text-decoration: none;
+    font-size: 15px;
+}
+.contactinfo:nth-child(2){
+    margin-left: 5px;
+}
+a[href^='tel:']{
+    text-decoration: none;
+}
+
+a[href^='tel:']:hover{
+    color: #e64b40;
+}
+a[href^='mailto:']:hover{
+    color: #e64b40;
+}
+
+.mainheading{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight:500;
+    color:#4a4a4a;
+}
+#headJob{
+    margin-left: 50px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    color:#4a4a4a;
+}
+.SectionHeadings{
+   margin-top: 30px;
+    margin-left: 10px;
+    color: #3e93bd;
+    font-weight: 400;
+}
+.SectionHeadings:nth-child(1){
+    margin-top: 0px;
+}
+.ContentHeadings{
+    margin-top: 25px;
+   font-weight: bold;
+   margin-bottom: 5px;
+   color:#4a4a4a;
+}
+.firstcontent{
+    margin: 20px 35px 0px 12px;
+}
+.Content{
+    margin-top: 25px;
+    font-weight: 100;
+    color:#4a4a4a;
+    line-height: 150%;
+}
+
