@@ -4,6 +4,14 @@
 }
 body{
     min-width: 1000px;
+
+}
+.profimage{
+    border-radius: 50%;
+    position: absolute;
+    width: 150px;
+    top: 15px;
+    right: 15px;
 }
 .container{
     display: grid;
